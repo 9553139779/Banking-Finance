@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankfiapp-eta-container
-        image: achyut938/banking-project
+        image: achyutv/bankfiapp-eta-app
         ports:
         - containerPort: 8082
 ---
