@@ -30,7 +30,7 @@ spec:
   selector:
     app: bankfiapp-eta-app
 
-  type: NodePort
+  type: LoadBalancer
   ports:
   - nodePort: 31030  
     port: 8082
